@@ -1,5 +1,5 @@
 <script>
-
+	import { goto } from "$app/navigation";
 </script>
 
 <svelte:head>
@@ -14,6 +14,7 @@
     <section class="hero">
         <h1>tracevalley</h1>
         <p>welcome to the future</p>
+		<button on:click={() => goto('/about')}>learn more</button>
     </section>
 
 	  
@@ -45,6 +46,21 @@
 		font-style: italic;
 		font-size: 1.3rem;
 		margin: 0;
+	}
+
+	button {
+		padding: 10px 20px;
+        background-color: #B80000;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        margin-top: 20px; /* Space between text and button */
+
+	}
+
+	button:hover{
+		background-color: #FF9800;
 	}
 
 

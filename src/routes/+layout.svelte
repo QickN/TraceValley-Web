@@ -3,8 +3,6 @@
 	import './styles.css';
 </script>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap">
-
 <div class="app">
 	<Header />
 
@@ -13,7 +11,7 @@
 	</main>
 
 	<footer>
-        <p>created by <strong>Qick</strong></p> 
+        <p>Created by the <strong>TraceValley Team</strong> With ❤️</p> 
 	</footer>
 </div>
 
@@ -22,8 +20,7 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
-		font-family: 'Lora', serif;
-
+		font-family: var(--font-body);
 	}
 
 	main {

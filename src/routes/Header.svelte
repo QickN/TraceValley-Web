@@ -4,17 +4,23 @@
 </script>
 
 <header>
-	<div class="corner">
-
-	</div>
+	<div class="corner"></div>
 
 	<nav>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
 			</li>
+			<li aria-current={$page.url.pathname === '/OurTeam' ? 'page' : undefined}>
+				<a href="/OurTeam">Our Team</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/OurMission' ? 'page' : undefined}>
+				<a href="/OurMission">Our Mission</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/Contact' ? 'page' : undefined}>
+				<a href="/Contact">Contact</a>
+			</li>
 		</ul>
-
 	</nav>
 
 	<div class="corner">
@@ -28,6 +34,7 @@
 	header {
 		display: flex;
 		justify-content: space-between;
+		font-family: var(--font-body); /* Use system font */
 	}
 
 	.corner {
@@ -91,9 +98,7 @@
 		padding: 0 0.5rem;
 		color: var(--color-text);
 		font-weight: 700;
-		font-size: 0.8rem;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
+		font-size: 1rem;
 		text-decoration: none;
 		transition: color 0.2s linear;
 	}

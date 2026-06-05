@@ -14,7 +14,6 @@
 		<button on:click={() => goto('/OurMission')}>Learn More</button>
     </section>
 
-    <!-- Add your other sections like About, Services, Contact here -->
 </main>
 
 <style>
@@ -50,7 +49,7 @@
         border: none;
         border-radius: 7px;
         cursor: pointer;
-        margin-top: 20px; /* Space between text and button */
+        margin-top: 20px;
 	}
 
 	button:hover {

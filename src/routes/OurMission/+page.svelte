@@ -1,7 +1,3 @@
-<script>
-    import { goto } from '$app/navigation';
-</script>
-
 <svelte:head>
     <title>Our Mission</title>
     <meta name="description" content="Innovative Technology Solutions by TraceValley" />
@@ -17,7 +13,7 @@
     <section class="grid-container">
         <div class="grid-item">
             <h2>Project Reel</h2>
-            <p>A Completely Mechainical, Modular, and Fun Display Controlled From Your Phone</p>
+            <p>A mechanical, modular display concept controlled from your phone.</p>
         </div>
         <div class="grid-item">
             <h2>Coming Soon</h2>
@@ -57,7 +53,7 @@
     }
 
     .grid-item {
-        background: rgba(30, 30, 30, 0.7); /* Dark gray glassy effect */
+        background: rgba(30, 30, 30, 0.7);
         backdrop-filter: blur(10px);
         border-radius: 15px;
         padding: 2rem;
@@ -75,12 +71,12 @@
     .grid-item h2 {
         font-size: 1.5rem;
         margin-bottom: 1rem;
-        color: #fff; /* White font for titles */
+        color: #fff;
         font-weight: bold;
     }
 
     .grid-item p {
         font-size: 1rem;
-        color: #fff; /* White font for paragraphs */
+        color: #fff;
     }
 </style>

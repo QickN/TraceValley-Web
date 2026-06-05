@@ -1,22 +1,29 @@
-# create-svelte
+# TraceValley Web
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+SvelteKit prototype for the TraceValley landing site.
 
-## Creating a project
+## Purpose
 
-If you're seeing this, you've probably already done this step. Congrats!
+This project is a small marketing site for a hardware and technology concept. It includes a
+home page, mission page, team page, and contact page.
+
+## Local Development
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+npm install
+npm run dev
 ```
 
-## Developing
+## Verification
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+npm run check
+npm run build
+```
+
+## Notes
+
+The project uses SvelteKit with the Cloudflare adapter available for deployment.
 
 ```bash
 npm run dev

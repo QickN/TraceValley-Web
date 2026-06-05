@@ -1,7 +1,6 @@
 <script>
-    import { goto } from '$app/navigation';
-    import nickimg from '$lib/images/nick.png'
-    import mattimg from '$lib/images/matt.png'
+    import nickimg from '$lib/images/nick.png';
+    import mattimg from '$lib/images/matt.png';
 </script>
 
 <svelte:head>
@@ -20,12 +19,12 @@
         <div class="grid-item">
             <h2>Nick</h2>
             <img src={nickimg} alt="Nick" />
-            <p>The best engineer of all time way better than this guy on my right</p>
+            <p>Software developer focused on product design, web experiences, and prototype engineering.</p>
         </div>
         <div class="grid-item">
             <h2>Matt</h2>
             <img src={mattimg} alt="Matt" />
-            <p>im dumb engineer</p>
+            <p>Engineer and collaborator supporting TraceValley product development.</p>
         </div>
         <div class="grid-item">
             <h2>Coming Soon</h2>
@@ -61,7 +60,7 @@
     }
 
     .grid-item {
-        background: rgba(30, 30, 30, 0.7); /* Dark gray glassy effect */
+        background: rgba(30, 30, 30, 0.7);
         backdrop-filter: blur(10px);
         border-radius: 15px;
         padding: 2rem;
@@ -79,7 +78,7 @@
     .grid-item h2 {
         font-size: 1.5rem;
         margin-bottom: 1rem;
-        color: #fff; /* White font for titles */
+        color: #fff;
         font-weight: bold;
     }
 
@@ -92,6 +91,6 @@
 
     .grid-item p {
         font-size: 1rem;
-        color: #fff; /* White font for paragraphs */
+        color: #fff;
     }
 </style>
